@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Currículo IA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="form">
+    <h2>Gerador de Currículo</h2>
+
+    <input id="nome" placeholder="Seu nome">
+    <input id="cargo" placeholder="Cargo desejado">
+    <input id="email" placeholder="Email">
+    <textarea id="resumo" placeholder="Resumo profissional"></textarea>
+
+    <button onclick="melhorarResumo()">✨ Melhorar com IA</button>
+    <button onclick="gerarCurriculo()">Gerar Currículo</button>
+  </div>
+
+  <div class="preview" id="preview">
+    <h1 id="pNome">Seu Nome</h1>
+    <h3 id="pCargo">Cargo</h3>
+    <p id="pEmail">email@email.com</p>
+    <p id="pResumo">Resumo aparecerá aqui...</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
